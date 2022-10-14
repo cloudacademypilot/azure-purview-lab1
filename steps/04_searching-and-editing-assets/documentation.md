@@ -141,4 +141,4 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
     ![deselect](./assets/5-18_deselect.jpg "deselect")
 
 
-  [ ⏮️ Previous Module](../03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md) - [Next Module ⏭️ ](../05_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
+  [ ⏮️ Previous Module](../03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md) 
