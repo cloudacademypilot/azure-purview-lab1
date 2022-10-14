@@ -1,0 +1,6 @@
+title: Registered and Scanned SQL DB Source
+internal_name: Registered and Scanned SQL DB Source
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
