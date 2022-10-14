@@ -1,0 +1,6 @@
+title: Searched and Edited Assets
+internal_name: Searched and Edited Assets
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
