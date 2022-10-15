@@ -28,7 +28,7 @@ In this demo, you'll walk through how to register and scan data sources.
 
    ![addSqldb](./assets/3-2_add_sqldb.jpg "add sqldb")
 
-4. Fill in the data source name, select the Azure subscription and sql server name where the database is located.
+4. Fill in the data **source name** as `Sqldb`, select the Azure subscription and sql server name where the database is located.
 
    ![name](./assets/3-3_name.jpg "name")
 
@@ -60,7 +60,7 @@ In this demo, you'll walk through how to register and scan data sources.
    
    ![scan](./assets/3-9_scan.jpg "scan")
 
-5. Provide the Scan name, Database name, Credential, select a collection.
+5. Provide the **Scan name** as `Scan-db`, Database name, Credential, select a collection.
    
    ![scanSettings](./assets/3-10_scan_settings.jpg "scan settings")
    
