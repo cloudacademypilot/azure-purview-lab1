@@ -1,0 +1,6 @@
+title: Registered and Scanned an on-premises SQL Server Instance
+internal_name: Registered and Scanned an on-premises SQL Server Instance
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
