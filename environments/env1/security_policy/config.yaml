@@ -1,0 +1,4 @@
+title: Azure Purview
+description: Azure Purview Labs
+vendor: azure # aws|azure|google|alibaba-cloud
+custom_policy_tags: azure-vm.allow_d8s_v3
