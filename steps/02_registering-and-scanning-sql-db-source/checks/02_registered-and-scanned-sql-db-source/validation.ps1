@@ -1,4 +1,8 @@
-$WorkSpace = Get-AzResource -ResourceGroupName az-purview-labs -Resourcetype Microsoft.Purview/accounts
+param(
+    [string]
+    $Resourcegroupname
+)
+$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.Purview/accounts
 $WorkSpacename = $WorkSpace.Name
 $TakeEndpoint = 'https://'+$WorkSpacename+'.purview.azure.com'
 $DataSource1 = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name 'Sql-db'
