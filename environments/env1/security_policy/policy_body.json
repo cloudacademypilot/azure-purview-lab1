@@ -52,7 +52,7 @@
   },
   "parameters_values": {
     "allowedLocations": {
-      "value": ["westus", "southcentralus", "{RGLocation}"]
+      "value": ["{RGLocation}"]
     },
     "allowedServices": {
       "value": [
