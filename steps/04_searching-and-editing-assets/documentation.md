@@ -20,73 +20,91 @@ In this module, you'll learn to edit technical metadata by adding definitions an
 
   ![search](./assets/5-1_search.jpg "search")
   
-2. Filter the search results by **Classification** (e.g. **Country/Region**) and click the hyperlinked asset name to view the details (e.g. `QueriesByState`).
+2. Click the hyperlinked asset name to view the details (e.g. `Address`).
 
-  ![filter](./assets/5-2_filter.jpg "filter")
+  ![filter](./assets/2-select_address.jpg "filter")
   
 
 ## 2. Update an Asset
 1. Click **Edit** to modify the asset details.
 
-    ![edit](./assets/5-3_edit.jpg "edit")
+    ![edit](./assets/3-edit.jpg "edit")
     
 2. Update the **Description** by copying and pasting the sample text below.
 
     ```text
-    This dataset was curated from the Bing search logs (desktop users only) over the period of Jan 1st, 2020 – (Current Month - 1). Only searches that were issued many times by multiple users were included. The dataset includes queries from all over the world that had an intent related to the Coronavirus or Covid-19. In some cases this intent is explicit in the query itself (e.g., “Coronavirus updates Seattle”), in other cases it is implicit , e.g. “Shelter in place”
+    The AdventureWorks Database supports a fictitious, multinational manufacturing company called Adventure Works Cycles. And the address table contains the customer's address.
     ```
     
-3. Assign a **Classification** (e.g. `World Cities`) using the drop-down menu.
+3. Assign a **Classification** (e.g. `Person's Address`) using the drop-down menu.
 
-    ![overview](./assets/5-4_overview.jpg "overview")
+    ![overview](./assets/4-description.jpg "overview")
     
 4. Navigate to the **Schema** tab and update the **Asset description** for each column using the sample text below.
 
-    ![schema](./assets/5-5_schema.jpg "schema")
+    ![schema](./assets/5-col_desc.jpg "schema")
     
-    **Date**
+    **AddressID**
 
     ```text
-    Date on which the query was issued.
+    Primary key for Address records.
     ```
 
-    **Query**
+    **AddressLine1**
 
     ```text
-    The actual search query issued by user(s).
+    First street address line.
     ```
 
-    **IsImplicitIntent**
+    **AddressLine2**
 
     ```text
-    True if query did not mention covid or coronavirus or sarsncov2 (e.g, “Shelter in place”). False otherwise.
+    Second street address line.
     ```
 
-    **State**
+    **City**
 
     ```text
-    State from where the query was issued.
+    Name of the city.
     ```
 
-    **Country**
+    **CountryRegion**
     
     ```text
-    Country from where the query was issued.
+    Name of the country.
     ```
 
-    **PopularityScore**
+    **ModifiedDate**
 
     ```text
-    Value between 1 and 100 inclusive. 1 indicates least popular query on the day/State/Country with Coronavirus intent, and 100 indicates the most popular query for the same geography on the same day.
+    Date and time the record was last updated.
     ```
     
+    **PostalCode**
+    
+    ```text
+    Postal code for the street address.
+    ```
+
+    **rowguid**
+    
+    ```text
+    ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
+    ```
+
+    **StateProvince**
+    
+    ```text
+    Unique identification number for the state or province. Foreign key to StateProvince table.
+    ```
+
 5. Navigate to the **Contacts** tab and set someone within your organization to be an **Expert** and an **Owner**. Click **Save**.
   
-    ![contacts](./assets/5-6_contacts.jpg "contacts")
+    ![contacts](./assets/6-save.jpg "contacts")
     
 6. To see other assets within the same path, navigate to the **Related** tab.
 
-    ![related](./assets/5-7_related.jpg "related")
+    ![related](./assets/7-related.jpg "related")
     
  
 ## 3. Browse Assets
@@ -105,17 +123,17 @@ While the search experience is ideal for keyword based discovery, the Microsoft 
     
     ![viewsources](./assets/5-10_view_sources.jpg "viewsources")
     
-4. Switch to the **By source type** tab and select a **source** (e.g. `Azure Data Lake Storage Gen2`).
+4. Switch to the **By source type** tab and select a **source** (e.g. `Azure SQL Database`).
 
-    ![sourcetype](./assets/5-11_by_source_type.jpg "sourcetype")
+    ![sourcetype](./assets/12-source_type.jpg "sourcetype")
     
-5. Select an **account** (e.g. `pvlab{randomId}adls`). 
+5. Select an **account** (e.g. `pvlab-{randomId}-sqldb`). 
 
-   ![adls](./assets/5-12_select_adls.jpg "adls") 
+   ![adls](./assets/13-select_db.jpg "adls") 
 
-6. Select a **container** (e.g. `raw`).
+6. Select a **database** (e.g. `SalesLT`).
 
-    ![raw](./assets/5-13_raw.jpg "raw")
+    ![raw](./assets/14-SalesLT.jpg "raw")
     
 ## 4. Bulk Edit
 Microsoft Purview allows us to perform certain operations (add/replace/remove) against a subset of attributes (Expert, Owner, Term, Classification) in bulk directly within the Microsoft Purview Governance Portal.
@@ -126,19 +144,19 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
 
 2. Hover your mouse over an item in the list to reveal the checkbox on the right-hand side. Select five items and click **View selected**.
 
-    ![select](./assets/5-15_select.jpg "select")
+    ![select](./assets/16-view_selected.jpg "select")
 
 3. Click **Bulk edit**.
 
-    ![bulkedit](./assets/5-16_bulk_edit.jpg "bulkedit")
+    ![bulkedit](./assets/17-bulk_edit.jpg "bulkedit")
 
 4. Set the **Attribute** to `Owner`, set **Operation** to `Add`, select one or more users in your organization, and click **Apply**.
 
-    ![attribute](./assets/5-17_attribute.jpg "attribute")
+    ![attribute](./assets/18-edit_assets.jpg "attribute")
 
 5. Click **Deselect all and close**.
 
-    ![deselect](./assets/5-18_deselect.jpg "deselect")
+    ![deselect](./assets/19-deselect.jpg "deselect")
 
 
   [ ⏮️ Previous Module](../03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md) 
