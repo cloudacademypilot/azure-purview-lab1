@@ -27,8 +27,8 @@
       }
     }
   },
-  "displayName": "Azure Synapse Migration Policy",
-  "description": "This policy restricts what is allowed in the Azure Synapse Lab.",
+  "displayName": "Azure Purview Policy",
+  "description": "This policy restricts what is allowed in the Azure Purview Lab.",
   "policyRule": {
     "if": {
       "anyOf": [
