@@ -4,10 +4,10 @@ In this lab, you will taken through a series of steps to implement key features 
 
 The objective of this lab is to provide participants solid understanding and experience of using Azure Purview.  The following are the main topics covered in the lab. 
 
-1. Create Microsoft Purview account.
-2. Create Collections, Register Sources and scan the assets.
-3. Adding Glossary terms, classification rules and scan rule sets.
-4. Adding Data Policy to the assets. 
+1. Creating collection and adding role assignments
+2. Registering and Scanning SQL DB Source
+3. Registering and Scanning an on-premises SQL Server Instance
+4. Searching and Editing Assets 
 
 ### Intended Audience
 
