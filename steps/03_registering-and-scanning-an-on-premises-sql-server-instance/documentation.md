@@ -234,7 +234,7 @@ Note: Value Should have Same Password which you want to connect to On-Prem SQL s
 
 ![new_scan](./assets/51_new_scan.jpg "new scan")
 
-2.	In the details page, enter the **Scan name** as `Scan-instance`, select the registered Integration Runtime, enter the Database Name, and select the newly created Credential. Test connection. And continue once the connection is succeeded.
+2.	In the details page, enter the **Scan name**, select the registered Integration Runtime, enter the Database Name, and select the newly created Credential. Test connection. And continue once the connection is succeeded.
 
 ![test_connection](./assets/52_test_connection.jpg "test connection")
 
