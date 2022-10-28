@@ -234,7 +234,7 @@ Note: Value Should have Same Password which you want to connect to On-Prem SQL s
 
 ![new_scan](./assets/51_new_scan.jpg "new scan")
 
-2.	In the details page, enter the **Scan name** as `Scan-instance`, select the registered Integration Runtime, enter the Database Name, and select the newly created Credential. Test connection. And continue once the connection is succeeded.
+2.	In the details page, enter the **Scan name**, select the registered Integration Runtime, enter the Database Name, and select the newly created Credential. Test connection. And continue once the connection is succeeded.
 
 ![test_connection](./assets/52_test_connection.jpg "test connection")
 
@@ -264,4 +264,4 @@ Once Scanning is completed, go to Data catalog and in top search box type in * a
 
 ![validate](./assets/59_validate.jpg "validate")
 
-[ ⏮️ Previous Module](../02_registering-and-scanning-sql-db-source-and-adls-gen2-account/documentation.md) - [Next Module ⏭️](../04_searching-and-editing-assets/documentation.md)
+[ ⏮️ Previous Module](../02_registering-and-scanning-sql-db-source/documentation.md) - [Next Module ⏭️](../04_searching-and-editing-assets/documentation.md)

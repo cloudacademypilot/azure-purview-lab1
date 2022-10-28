@@ -61,11 +61,19 @@ They also organize your sources and assets into categories that are customized t
 5. After landing on to the Purview Workspace. Go to **Data Map** tab on your left pane.
 
 6. Select **Collections** -> click on your root collection [**pvlab-{randomid}-purview**] -> Role Assignments tab -> Check whether username is added to all the roles.
-   If not, click on Add role and give your microsoft account id or name.
+   If not, click on any of the roles given in the **Edit role assignments dropdown** and give your microsoft account id or name.
+   
+   Here, it is demonstrated for **Collection admins** role. 
+   `Edit role assignments` -> `Collection admins`
 
    
-   	![addRoles](./assets/1-4_add_roles.jpg "add roles")
-	
+   ![addRoles](./assets/add_roles.jpg "add roles")
+   
+   **Give `username` or `email id` and click `Ok`**
+   
+   ![Search](./assets/search.jpg "search")
+   
+   Similarly, the users can also add **_data source admins, data curators, data readers, data share contributors, insights readers, policy authors and workflow admins_** roles to the collection.
 
 ### Creating Collection:
 
@@ -96,7 +104,7 @@ They also organize your sources and assets into categories that are customized t
 
    ![addSubcollection](./assets/2-5_add_subcollection.jpg "add subcollection")
 
-2. Give a display name and add collection admin. Click **Create**.
+2. Give a **display name** as `Sub Contoso` and add collection admin. Click **Create**.
 
    ![subcollectionName](./assets/2-6_subcollection_name.jpg "subcollection name")
 
@@ -138,9 +146,15 @@ Select Role Assignments tab to see all the roles in a collection.
 
 ### Adding Role Assignments:
 
-Click on Edit Role Assignments -> Add role -> Give username or email id
+Here, we shall add role assignments to the collections created. The following is the demonstration for adding roles in **Contoso Collection**. Users can also practice the same for _Sub Contoso collection._
 
-![editRole](./assets/2-7_edit_role.jpg "edit role")
+Click `Contoso` collection -> `Edit role assignments` -> select any role e.g. `Collection admins` -> Give `username or email id` and click `Ok`.
+
+![collectionRoles](./assets/collection_roles.jpg "collection roles")
+
+![collectionSearch](./assets/collection_search.jpg "collection search")
+
+Likewise, the users can also add **_data source admins, data curators, data readers, data share contributors, insights readers and workflow admins_** roles to the collection.
 
 ### Restricting Inheritance:
 

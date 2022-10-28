@@ -28,7 +28,7 @@ In this demo, you'll walk through how to register and scan data sources.
 
    ![addSqldb](./assets/3-2_add_sqldb.jpg "add sqldb")
 
-4. Fill in the data **source name** as `Sqldb`, select the Azure subscription and sql server name where the database is located.
+4. Fill in the data **source name**, select the **Azure subscription** and **sql server name** where the database is located.
 
    ![name](./assets/3-3_name.jpg "name")
 
@@ -60,13 +60,13 @@ In this demo, you'll walk through how to register and scan data sources.
    
    ![scan](./assets/3-9_scan.jpg "scan")
 
-5. Provide the **Scan name** as `Scan-db`, Database name, Credential, select a collection.
+5. Provide the **Scan name**, Database name, Credential, select a collection.
    
    ![scanSettings](./assets/3-10_scan_settings.jpg "scan settings")
    
 6. **Test Connection**, once the scan is **Successful**, click **Continue**.
 
-> If the Scan is failed, then you forget to add the client ip address to Firewall in Azure SQL database and set admin in sql server.
+> If the Scan is failed, then you forgot to add the client ip address to Firewall in Azure SQL database and set admin in sql server.
 
 7. In the **Scope your scan** blade, Select the AzureSQLDatabase and **Continue**.
    
@@ -101,4 +101,4 @@ In this demo, you'll walk through how to register and scan data sources.
     
     ![moveCollection](./assets/3-18_move_collection.jpg "move collection")
 
-[ ⏮️ Previous Module](../02_creating-collection-and-adding-role-assignments/documentation.md) - [Next Module ⏭️](../04_registering-and-scanning-adls-gen2-account/documentation.md)
+[ ⏮️ Previous Module](../01_creating-collection-and-adding-role-assignments/documentation.md) - [Next Module ⏭️](../03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md)
