@@ -154,7 +154,7 @@ Click `Contoso` collection -> `Edit role assignments` -> select any role e.g. `C
 
 ![collectionSearch](./assets/collection_search.jpg "collection search")
 
-Likewise, the users can also add **_data source admins, data curators, data readers, data share contributors, insights readers, policy authors and workflow admins_** roles to the collection.
+Likewise, the users can also add **_data source admins, data curators, data readers, data share contributors, insights readers and workflow admins_** roles to the collection.
 
 ### Restricting Inheritance:
 
