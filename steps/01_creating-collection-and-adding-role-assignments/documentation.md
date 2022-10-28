@@ -148,7 +148,7 @@ Select Role Assignments tab to see all the roles in a collection.
 
 Here, we shall add role assignments to the collections created. The following is the demonstration for adding roles in **Contoso Collection**. Users can also practice the same for _Sub Contoso collection._
 
-Click `Contoso` collection -> `Edit role assignments` -> `Collection admins` -> Give `username or email id` and click `Ok`.
+Click `Contoso` collection -> `Edit role assignments` -> select any role e.g. `Collection admins` -> Give `username or email id` and click `Ok`.
 
 ![collectionRoles](./assets/collection_roles.jpg "collection roles")
 
