@@ -264,4 +264,4 @@ Once Scanning is completed, go to Data catalog and in top search box type in * a
 
 ![validate](./assets/59_validate.jpg "validate")
 
-[ ⏮️ Previous Module](../02_registering-and-scanning-sql-db-source-and-adls-gen2-account/documentation.md) - [Next Module ⏭️](../04_searching-and-editing-assets/documentation.md)
+[ ⏮️ Previous Module](../02_registering-and-scanning-sql-db-source/documentation.md) - [Next Module ⏭️](../04_searching-and-editing-assets/documentation.md)
