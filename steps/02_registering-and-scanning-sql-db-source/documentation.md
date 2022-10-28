@@ -101,4 +101,4 @@ In this demo, you'll walk through how to register and scan data sources.
     
     ![moveCollection](./assets/3-18_move_collection.jpg "move collection")
 
-[ ⏮️ Previous Module](../02_creating-collection-and-adding-role-assignments/documentation.md) - [Next Module ⏭️](../04_registering-and-scanning-adls-gen2-account/documentation.md)
+[ ⏮️ Previous Module](../01_creating-collection-and-adding-role-assignments/documentation.md) - [Next Module ⏭️](../03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md)
